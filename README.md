@@ -1,4 +1,4 @@
-Title
+Our Team
 ===
 
 ## Consegna:
@@ -31,14 +31,22 @@ Buon lavoro!
 
 DATI:
 
-Wayne Barnett	Founder & CEO	wayne-barnett-founder-ceo.jpg
+| NOME | RUOLO | IMMAGINE |
+| ---     | ---   | ---|
+| Wayne Barnett |	Founder & CEO |	wayne-barnett-founder-ceo.jpg |
+| Angela Caroll |	Chief Editor	| angela-caroll-chief-editor.jpg |
+| Walter Gordon	| Office Manager	| walter-gordon-office-manager.jpg |
+| Angela Lopez |	Social Media Manager	| angela-lopez-social-media-manager.jpg |
+| Scott Estrada |	Developer	| scott-estrada-developer.jpg |
+| Barbara Ramos |	Graphic Designer	| barbara-ramos-graphic-designer.jpg |
 
-Angela Caroll	Chief Editor	angela-caroll-chief-editor.jpg
 
-Walter Gordon	Office Manager	walter-gordon-office-manager.jpg
+___
 
-Angela Lopez	Social Media Manager	angela-lopez-social-media-manager.jpg
+## Procedimento:
 
-Scott Estrada	Developer	scott-estrada-developer.jpg
+1. Creo un array di oggetti, ogni oggetto è un membro del Team che avrà le sue label: _nome_, _ruolo_ e _foto_.
 
-Barbara Ramos	Graphic Designer	barbara-ramos-graphic-designer.jpg
+1. Stampo prima su console, usando un ciclo `for of`, per vedere se il mio codice funziona
+
+1. Se tutto funziona creo la stringa dinamica che stamperò nel DOM già formattato
