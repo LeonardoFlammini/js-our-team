@@ -46,3 +46,15 @@ const membersContainer = document.getElementById("members-container");
 // ********************** LET *************************//
 
 let card = ""; //potrebbe essere la const in un ciclo
+
+// ********************** MAIN *************************//
+
+let memberString = "";
+for(member of teamMembers){
+  
+  for(label in member){
+    memberString += ` ${label} ${teamMembers[label]}`;
+  }
+
+  console.log(memberString);
+}
