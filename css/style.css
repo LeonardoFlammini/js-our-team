@@ -43,3 +43,8 @@ img{
   width: 100%;
   object-fit: cover;
 }
+
+h5{
+ font-family: 'Vidaloka', serif;
+ color: #575149;
+}
